@@ -10,4 +10,7 @@ opt.relativenumber = false
 vim.g.minipairs_disable = true
 vim.g.better_whitespace_filetypes_blacklist = { 'dashboard' }
 vim.g.autoformat = false
-
+vim.g['test#strategy'] = "toggleterm"
+vim.g['floaterm_width'] = 0.9
+vim.g['floaterm_height'] = 0.9
+vim.g['test#floaterm#float_ops'] = "float"

@@ -8,3 +8,12 @@ local Util = require("lazyvim.util")
 local map = Util.safe_keymap_set
 
 map("v", "<C-c>", ":w !pbcopy<CR>", { desc = "Copy to clipboard" })
+
+-- Test keys
+map("n", "<Leader>sn", ":TestNearest<CR>", { desc = "TestNearest" })
+map("n", "<Leader>sf", ":TestFile<CR>", { desc = "TestFile" })
+map("n", "<Leader>sa", ":TestSuite<CR>", { desc = "TestSuite" })
+map("n", "<Leader>sl", ":TestLast<CR>", { desc = "TestLast" })
+map("n", "<Leader>sa", ":TestVisit<CR>", { desc = "TestVisit" })
+
+map("n", "<Leader>co", ":Copilot status<CR>", { desc = "Copilot status" })

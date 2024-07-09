@@ -3,7 +3,6 @@ return {
   cmd = "Copilot",
   build = ":Copilot auth",
   opts = {
-    autostart = true,
     suggestion = {
       enabled = true,
       auto_trigger = true,
