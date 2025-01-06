@@ -5,6 +5,7 @@ return {
     window = {
       width = 40,
       auto_expand_width = true,
+      hide_dotfiles = false,
     },
   },
 }
